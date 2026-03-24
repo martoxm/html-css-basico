@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.descricao {
+    color: #555;
+    font-size: 15px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #2e7d32;
+}
+
+button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #256628;
+}
